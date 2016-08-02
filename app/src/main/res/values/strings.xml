@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">PayRoll Tracker</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_new_pay">New Pay Week</string>
+    <string name="title_activity_existing_pay_week">Existing Pay Week</string>
+    <string name="_0">0</string>
+    <string name="_0_00">0.00</string>
+    <string name="total_hours">Total Hours:</string>
+    <string name="total_dollars">Total Dollars: $</string>
+    <string name="calculate_totals">Calculate Totals</string>
+    <string name="save">Save</string>
+    <string name="monday">Monday:</string>
+    <string name="hours">Hours:</string>
+    <string name="tuesday">Tuesday:</string>
+    <string name="hours2">Hours:</string>
+    <string name="wednesday">Wednesday:</string>
+    <string name="hours3">Hours:</string>
+    <string name="thursday">Thursday:</string>
+    <string name="hours4">Hours:</string>
+    <string name="friday">Friday:</string>
+    <string name="hours5">Hours:</string>
+    <string name="saturday">Saturday:</string>
+    <string name="hours6">Hours:</string>
+    <string name="sunday">Sunday:</string>
+    <string name="hours7">Hours:</string>
+    <string name="set_pay_tax_rates">Set Pay &amp; Tax Rates</string>
+    <string name="pay_rate">Pay Rate: $</string>
+    <string name="payroll_tracker">PayRoll Tracker</string>
+    <string name="title_activity_set_rates">SetRates</string>
+</resources>

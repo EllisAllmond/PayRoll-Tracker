@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_dark">
+
+    <TextView
+        android:id="@+id/payRateTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pay_rate"
+        android:textSize="22sp"
+        android:textColor="@android:color/background_dark"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:padding="5dp" />
+
+    <EditText
+        android:id="@+id/payRateInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="12.00"
+        android:textColor="@android:color/background_dark"
+        android:textSize="22sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_toRightOf="@+id/payRateTxt"
+        android:layout_toEndOf="@+id/payRateTxt" />
+
+    <TextView
+        android:id="@+id/taxRateTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tax Rate: %"
+        android:textSize="22sp"
+        android:textColor="@android:color/background_dark"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:padding="5dp"
+        android:layout_below="@+id/payRateTxt"/>
+
+    <EditText
+        android:id="@+id/taxRateInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:textColor="@android:color/background_dark"
+        android:hint="15"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_toRightOf="@+id/taxRateTxt"
+        android:layout_toEndOf="@+id/taxRateTxt"
+        android:layout_below="@+id/payRateTxt"/>
+
+    <Button
+        android:id="@+id/btnSaveRates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:textSize="22sp"
+        android:layout_margin="5dp"
+        android:textColor="@android:color/background_dark"
+        android:background="@android:color/background_light"
+        android:layout_below="@+id/taxRateInput"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btnClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Close"
+        android:textSize="22sp"
+        android:layout_margin="5dp"
+        android:textColor="@android:color/background_dark"
+        android:background="@android:color/background_light"
+        android:layout_below="@+id/btnSaveRates"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
